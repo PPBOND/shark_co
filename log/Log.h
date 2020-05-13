@@ -1,12 +1,3 @@
-//===- Log.h - Logging Interface --------------------------------*- C++ -*-===//
-//
-/// \file
-/// A simple and fast logger with asynchronization.
-//
-// Author:  zxh(definezxh@163.com)
-// Date:    2019/12/07 14:13:09
-//===----------------------------------------------------------------------===//
-
 #pragma once
 
 #include <string>

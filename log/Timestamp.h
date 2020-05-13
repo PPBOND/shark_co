@@ -1,12 +1,3 @@
-//===- Timestamp.h - Wrapper of Timestamp -----------------------*- C++ -*-===//
-//
-/// \file
-///  Provide related helper function of timestamp.
-//
-// Author:  zxh(definezxh@163.com)
-// Date:    2019/12/17 20:21:54
-//===----------------------------------------------------------------------===//
-
 #pragma once
 
 #include <string>

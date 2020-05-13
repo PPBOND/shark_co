@@ -81,7 +81,6 @@ void work_thread_t::thread_run(){
 
             coroutine_t * cur = nullptr;
             m_coroutine_vers.pop_front(cur);
-           
             cur->co_resume();
             if(cur->m_status == co_status::exit){
                 --m_runable;

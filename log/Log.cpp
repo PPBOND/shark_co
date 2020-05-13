@@ -1,13 +1,3 @@
-//===- Log.cpp - Logging Implementation -------------------------*- C++ -*-===//
-//
-/// \file
-/// This file contains the processing of logs by background thread and
-/// organization of log fomat.
-//
-// Author:  zxh(definezxh@163.com)
-// Date:    2019/12/07 15:36:49
-//===----------------------------------------------------------------------===//
-
 #include "Log.h"
 #include "Timestamp.h"
 #include "NumToString.h"

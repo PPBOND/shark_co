@@ -1,4 +1,5 @@
 #include "io_hook.h"
+#include "Log.h"
 #include "work_thread.h"
 #include <stdio.h>
 #include "coroutine.h"
@@ -19,6 +20,7 @@ void set_hook_enabled(bool flag){
 
 extern "C" int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen)
 {
+	LOG_DEBUG<<"accept has been call";
 	if(is_hook_enable()){
         auto current_thread = work_thread_t::get_current_thread();
         current_thread->update_event(sockfd, EPOLLIN);
